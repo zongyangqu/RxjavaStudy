@@ -19,6 +19,10 @@
         <activity android:name=".ui.RxjavaDemoAccidenceFirst"/>
 
         <activity android:name=".ui.RxjavaDemoAccidenceSecond"/>
+
+        <activity android:name=".ui.RxJavaScheduler1Activity"/>
+
+        <activity android:name=".ui.RxJavaMap1Activity"/>
     </application>
 
 </manifest>
