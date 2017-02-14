@@ -27,8 +27,20 @@
         android:text="Scheduler线程控制 （一）"/>
 
     <Button
+        android:id="@+id/btn_rxjava_Scheduler2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scheduler线程控制 （二）"/>
+
+    <Button
         android:id="@+id/btn_rxjava_map1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="map变换 （一）"/>
+        android:text="变换 （一）之map"/>
+    <Button
+        android:id="@+id/btn_rxjava_compose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="变换 （二）之compose"/>
+
 </LinearLayout>

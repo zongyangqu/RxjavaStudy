@@ -21,8 +21,12 @@ public class MainActivity extends BaseActivity {
     Button btn_rxjava_accidence2;
     @Bind(R.id.btn_rxjava_Scheduler1)
     Button btn_rxjava_Scheduler1;
+    @Bind(R.id.btn_rxjava_Scheduler2)
+    Button btn_rxjava_Scheduler2;
     @Bind(R.id.btn_rxjava_map1)
     Button btn_rxjava_map1;
+    @Bind(R.id.btn_rxjava_compose)
+    Button btn_rxjava_compose;
     @Override
     protected Activity getActivity() {
         return this;
@@ -49,6 +53,8 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.btn_rxjava_Scheduler1:
                 RxJavaScheduler1Activity.startFrom(getActivity());
+                break;
+            case R.id.btn_rxjava_Scheduler2:
                 break;
             case R.id.btn_rxjava_map1:
                 RxJavaMap1Activity.startFrom(getActivity());
